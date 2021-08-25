@@ -19,7 +19,7 @@ Highlights:
 - Install the nightly toolchain of Rust (necessary, because we utilize a few unstable Cargo features): `rustup toolchain install nightly`
 - Make sure the toolchains are up to date, as one of the utilized unstable Cargo features landed just a few months ago: `rustup update`
 - Switch to nightly (as per above, necessary for Cargo): `rustup default nightly`
-- Download and install the [prebuilt binaries of the Rust Espressif compiler fork and the Espressif LLVM clang fork](https://github.com/espressif/rust-esp32-example/blob/main/docs/rust-on-xtensa.md) or follow the [Rust Espressif compiler fork & Espressif LLVM clang fork build instructions](https://github.com/esp-rs/rust);
+- Download and install the [prebuilt binaries of the Rust Espressif compiler fork and the Espressif LLVM clang fork](https://github.com/espressif/rust-esp32-example/blob/main/docs/rust-on-xtensa.md) or follow the [Rust Espressif compiler fork & Espressif LLVM clang fork build instructions](https://github.com/esp-rs/rust); *Make sure install commands are run in home directory* 
 - The build is using the `ldproxy` linker wrapper from `embuild`, so install [ldproxy](https://crates.io/crates/embuild/ldproxy):
   - `cargo install ldproxy`
 - Clone this repo: `git clone https://github.com/ivmarkov/rust-esp32-std-hello`
